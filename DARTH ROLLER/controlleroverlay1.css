@@ -1,18 +1,19 @@
-/*BEGIN Xbox One Controller Styling*/
+
+/* DARTH ROLLER - Xbox One Controller Styling */
+
 .controller.xbox {
-    background: url(xbox-assets/base5.png);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/base5.png") no-repeat center !important;
     height: 630px;
     width: 750px;
-    /*    margin-left: -375px;
-        margin-top: -285px;*/
 }
 
+/* White controller base */
 .xbox.white {
-    background: url(xbox-assets/base-white.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/base-white.svg") no-repeat center !important;
 }
 
 .xbox.disconnected {
-    background: url(xbox-assets/disconnected.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/disconnected.svg");
 }
 
 .xbox.disconnected div {
@@ -29,7 +30,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/trigger.svg");
     opacity: 0;
 }
 
@@ -46,7 +47,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/bumper.svg");
     opacity: 0;
 }
 
@@ -68,13 +69,12 @@
 
 .xbox .bumper.right {
     float: right;
-    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/quadrant.svg");
     height: 45px;
     width: 45px;
     top: 258px;
@@ -83,22 +83,18 @@
 }
 
 .xbox .p0 {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 
 .xbox .p1 {
-    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .xbox .p2 {
-    -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
 .xbox .p3 {
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -110,14 +106,16 @@
     left: 306px;
 }
 
-.xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svg);
+.xbox .back,
+.xbox .start {
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/start-select.svg");
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.xbox .back.pressed, .xbox .start.pressed {
+.xbox .back.pressed,
+.xbox .start.pressed {
     opacity: 1;
 }
 
@@ -126,7 +124,7 @@
 }
 
 .xbox .start {
-    background-position: 33px 0px;
+    background-position: 33px 0;
     float: right;
 }
 
@@ -140,7 +138,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/abxy.svg");
     width: 48px;
     height: 48px;
 }
@@ -160,7 +158,7 @@
 .xbox .b {
     background-position: -49px 0;
     top: 58px;
-    right: 0px;
+    right: 0;
 }
 
 .xbox .x {
@@ -185,7 +183,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(xbox-assets/stick.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/stick.svg");
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -214,7 +212,7 @@
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svg);
+    background: url("https://raw.githubusercontent.com/sethgood/DARTH.github.io/main/DARTH%20ROLLER/dpad.svg");
     position: absolute;
     opacity: 0;
 }
@@ -226,7 +224,7 @@
 .xbox .face.up {
     background-position: 34px 0;
     left: 38px;
-    top: 0px;
+    top: 0;
     width: 34px;
     height: 56px;
 }
@@ -262,4 +260,4 @@
     background: no-repeat center;
 }
 
-/*END Xbox One Controller Styling*/
+/* END DARTH ROLLER */
